@@ -79,3 +79,5 @@ BuildOutput/
 # Build files
 bin/
 obj/
+
+include/*
