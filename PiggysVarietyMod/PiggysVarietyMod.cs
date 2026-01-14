@@ -10,7 +10,10 @@ using static TestAccountCore.Netcode;
 namespace PiggysVarietyMod;
 
 [BepInDependency("BMX.LobbyCompatibility", BepInDependency.DependencyFlags.SoftDependency)]
-[BepInDependency("TestAccount666.TestAccountCore")]
+[BepInDependency("TestAccount666.TestAccountCore", "1.16.0")]
+[BepInDependency("com.rune580.LethalCompanyInputUtils")]
+[BepInDependency("com.github.teamxiaolan.dawnlib")]
+[BepInIncompatibility("Piggy.PiggyVarietyMod")]
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 public class PiggysVarietyMod : BaseUnityPlugin {
     public static PiggysVarietyMod Instance { get; private set; } = null!;

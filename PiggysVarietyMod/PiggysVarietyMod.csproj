@@ -6,9 +6,9 @@
         <AssemblyName>TestAccount666.PiggysVarietyMod</AssemblyName>
         <Product>PiggysVarietyMod</Product>
         <!-- Change to whatever version you're currently on. -->
-        <Version>1.0.0</Version>
-        <Description></Description>
-        <Source></Source>
+        <Version>1.2.0</Version>
+        <Description>Add various vanilla style things.</Description>
+        <Source>https://github.com/Test-Account666/Test-Account666-LethalCompany-PiggysVarietyMod/</Source>
     </PropertyGroup>
 
     <!-- Project Properties -->

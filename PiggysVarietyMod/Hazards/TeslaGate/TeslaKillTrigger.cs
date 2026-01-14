@@ -27,6 +27,12 @@ public class TeslaKillTrigger : MonoBehaviour {
                 IsServer: false,
             }) return;
 
-        enemyAI.HitEnemyClientRpc(0, -1, true);
+        if (!enemyAI) return;
+        if (enemyAI is not {
+                isEnemyDead: false,
+                enemyType.canDie: true,
+            }) return;
+
+        enemyAI.KillEnemyClientRpc(false);
     }
 }
